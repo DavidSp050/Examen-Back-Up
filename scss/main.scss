@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    padding: 25px;
+}
+.row {
+    .form-group {
+        &.button {
+            margin-top: 10px;
+        }
+    }
+    .action-buttons {
+       display: flex;
+       a {
+           margin-right: 10px;
+       }
+    }
+   
+}
+
+@media(max-width: "980px") {
+    .row {
+        .action-buttons {
+            display: unset;
+            a {
+                margin-right: unset;
+                margin-top: 5px;
+            }
+        }
+    }
+
+}
